@@ -561,6 +561,11 @@
 				"target": {
 					"type": "string",
 					"description": "Mount target."
+				},
+				"optional" : {
+					"type" : "boolean",
+					"default": "false",
+					"description": "If true a mount is only applied if the src path exists (only valid for bind mounts)"
 				}
 			},
 			"required": [
